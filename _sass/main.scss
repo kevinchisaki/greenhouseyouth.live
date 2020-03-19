@@ -35,6 +35,17 @@ $navbar-height: 4rem;
     width: 24px;
 }
 
+.underline {
+    display: inline-block;
+    border-bottom: solid 1.5px;
+    line-height: 20px;
+    transition: linear 0.3s;
+        &:hover {
+            transition: linear 0.3s;
+            border-bottom: solid 1.5px $white;
+        }
+}
+
 .gh-button {
     background: linear-gradient(244.3deg, #7CFFCD 0%, #A7FF7B 100%);
     display: inline-block;

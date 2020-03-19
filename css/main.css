@@ -1,3 +1,6 @@
+body {
+  -webkit-font-smoothing: subpixel-antialiased; }
+
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -312,7 +315,7 @@ a {
   a strong {
     color: currentColor; }
   a:hover {
-    color: #47BB8F; }
+    color: #7CFFCD; }
 
 code {
   background-color: whitesmoke;
@@ -1189,7 +1192,7 @@ a.box:active {
     margin-right: calc(-0.375em - 1px); }
   .button:hover, .button.is-hovered {
     border-color: #b5b5b5;
-    color: #47BB8F; }
+    color: #7CFFCD; }
   .button:focus, .button.is-focused {
     border-color: #3273dc;
     color: #363636; }
@@ -3597,7 +3600,7 @@ a.tag:hover {
     justify-content: center;
     padding: 0 0.75em; }
     .breadcrumb a:hover {
-      color: #47BB8F; }
+      color: #7CFFCD; }
   .breadcrumb li {
     align-items: center;
     display: flex; }
@@ -4986,7 +4989,7 @@ a.navbar-item,
   .pagination-next:hover,
   .pagination-link:hover {
     border-color: #b5b5b5;
-    color: #47BB8F; }
+    color: #7CFFCD; }
   .pagination-previous:focus,
   .pagination-next:focus,
   .pagination-link:focus {
@@ -6966,6 +6969,15 @@ label.panel-block {
   display: inline-block;
   height: 3px;
   width: 24px; }
+
+.underline {
+  display: inline-block;
+  border-bottom: solid 1.5px;
+  line-height: 20px;
+  transition: linear 0.3s; }
+  .underline:hover {
+    transition: linear 0.3s;
+    border-bottom: solid 1.5px white; }
 
 .gh-button {
   background: linear-gradient(244.3deg, #7CFFCD 0%, #A7FF7B 100%);
