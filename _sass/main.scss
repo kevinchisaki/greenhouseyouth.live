@@ -2,6 +2,10 @@
 
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
+body {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
 $scheme-main: $black-bis;
 $primary: #7CFFCD;
 $body-background-color: #383838;
@@ -11,7 +15,7 @@ $text: $white;
 $body-font-size: 1.20rem;
 
 $link: $primary;
-$link-hover: #47BB8F;
+$link-hover: #7CFFCD;
 
 $navbar-background-color: $scheme-main;
 $navbar-height: 4rem;
