@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+$scheme-main: $black-bis;
+$primary: #7CFFCD;
+$body-background-color: #383838;
+
+$family-sans-serif: 'Inconsolata', monospace;
+$text: $white;
+$body-font-size: 1.20rem;
+
+$link: $primary;
+$link-hover: #47BB8F;
+
+$navbar-background-color: $scheme-main;
+$navbar-height: 4rem;
+
+@import "../node_modules/bulma/bulma";
+
+.nav-background {
+    background: $black-bis;
+    text-align: center;
+    padding: 10px 0px 8px 0px;
+}
+
+.gh-line {
+    background: #7CFFCD;
+    display: inline-block;
+    height: 3px;
+    width: 24px;
+}
+
+.gh-button {
+    background: linear-gradient(244.3deg, #7CFFCD 0%, #A7FF7B 100%);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 12px 22px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    transition: linear 0.5s;
+        &:hover {
+            background: linear-gradient(244.3deg, #A7FF7B 0%, #7CFFCD 100%);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+            transition: linear 0.5s;
+        }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
